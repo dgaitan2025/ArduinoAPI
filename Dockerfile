@@ -1,5 +1,5 @@
 # Tomcat oficial con JDK 21 (vale 17, 20… mientras tu WAR sea Java ≥ 8)
-FROM tomcat:9.0-jdk20
+FROM tomcat:9.0-jdk21
 
 # Borramos los ejemplos que vienen por defecto
 RUN rm -rf /usr/local/tomcat/webapps/*
